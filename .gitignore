@@ -1,5 +1,45 @@
+.idea/
+.idea.*
+
+# Ignore build and compiled files
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+
+# Ignore Rider's workspace and index files
+*.sln.iml
+*.user
+*.suo
+*.sln.cache
+*.csproj.user
+
+# Ignore ReSharper and Rider caches
+*.DotSettings.user
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+
+# Ignore user-specific settings
+.vscode/
+*.swp
+*.sublime-*
+*.tmproj
+*.tmproject
+*.DS_Store
+
+# Ignore NuGet packages
+packages/
+project.lock.json
+project.assets.json
+
+# Ignore Rider plugin files
+.idea_modules/
+
+# Ignore compiled DLLs and PDBs
+*.dll
+*.pdb
+
+# Ignore Rider's solution-wide cache directory
+.idea_modules/
+.sln.DotSettings
